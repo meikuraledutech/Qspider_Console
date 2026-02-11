@@ -186,4 +186,3 @@ Select **Logout** from the main menu. Your session is cleared locally.
 | `Up` / `Down` | Move selection    |
 | `Enter`       | Confirm selection |
 | `Esc`         | Cancel / go back  |
-
