@@ -6,6 +6,7 @@ from syllabus_selector import select_syllabus
 from chapter_selector import select_chapter
 from csv_selector import select_csv, validate_csv
 from bulk_question_uploader import upload_all_questions
+from updater import update_app
 
 
 # ---------------- UI HELPERS ---------------- #
@@ -43,7 +44,7 @@ def menu_loop(stdscr):
 
         if not session:
             title = "TopBrains CLI"
-            options = ["Login", "Exit"]
+            options = ["Login", "Update App", "Exit"]
         else:
             user_name = session[1]
             user_role = session[4]
@@ -53,6 +54,7 @@ def menu_loop(stdscr):
             options = [
                 "Add MCQ Question",
                 "Add Programming Question",
+                "Update App",
                 "Logout",
                 "Exit"
             ]
@@ -119,6 +121,9 @@ def menu_loop(stdscr):
                 stdscr.addstr(5, 4, "🚧 Programming question flow coming next")
                 stdscr.addstr(7, 4, "Press any key to return...")
                 stdscr.getch()
+
+            elif choice == "Update App":
+                update_app(stdscr)
 
             elif choice == "Exit":
                 break
