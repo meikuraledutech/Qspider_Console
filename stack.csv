@@ -1,0 +1,11 @@
+questionTitle,questionDescription,optionA,optionB,optionC,optionD,correctOption,marks,difficulty
+"Stack Underflow Condition","When does stack underflow occur in an array-based stack implementation?","When top == capacity - 1","When top == -1 and pop is attempted","When stack is full","When push is called twice","B",2,"EASY"
+"Time Complexity of Push Operation","What is the time complexity of push operation in a stack implemented using an array?","O(n)","O(log n)","O(1)","O(n log n)","C",2,"EASY"
+"Reversing Data Using Stack","Which data structure is most suitable for reversing a string efficiently?","Queue","Stack","Tree","Graph","B",2,"EASY"
+"LinkedList Traversal Complexity","What is the time complexity to traverse a singly linked list of n nodes?","O(1)","O(log n)","O(n)","O(n^2)","C",2,"EASY"
+"Memory Allocation in LinkedList","In a singly linked list, memory for new nodes is allocated from which memory area?","Stack memory","Heap memory","Cache memory","Register memory","B",2,"MEDIUM"
+"Detecting Empty LinkedList","How do you check whether a singly linked list is empty?","If head == null","If head.next == null","If size == -1","If tail == null","A",2,"EASY"
+"Stack Implementation Using LinkedList","In a linked list implementation of stack, where does insertion and deletion occur?","At the end of list","At the middle","At the beginning head","Random position","C",3,"MEDIUM"
+"Searching in Singly LinkedList","What is the worst-case time complexity to search for an element in a singly linked list?","O(1)","O(log n)","O(n)","O(n log n)","C",2,"EASY"
+"Balanced Parentheses Problem","Which data structure is used to check for balanced parentheses in an expression?","Array","LinkedList","Stack","Queue","C",3,"MEDIUM"
+"LinkedList Node Structure","A basic node in a singly linked list contains which of the following?","Data and next pointer","Only data","Only pointer","Data and previous pointer","A",2,"EASY"
